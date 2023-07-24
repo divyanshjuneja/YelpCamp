@@ -164,7 +164,7 @@ app.use((err, req, res, next) => {
     res.status(statusCode).render('error', { err })
 })
 
-app.listen(process.env.PORT || 8000 , () => {
+app.listen(process.env.PORT || 7000 , () => {
     console.log('Serving on port 8000')
 })
 
